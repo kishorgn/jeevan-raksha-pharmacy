@@ -1,0 +1,35 @@
+2026-03-23 06:31:33 [main] INFO  c.c.j.JeevanRakshaApplication - Starting JeevanRakshaApplication using Java 22.0.2 with PID 5555 (/Users/kishorkumar/Programming/JeevanRaksha/jeevan-raksha-pharmacy/target/classes started by kishorkumar in /Users/kishorkumar/Programming/JeevanRaksha/jeevan-raksha-pharmacy)
+2026-03-23 06:31:33 [main] DEBUG c.c.j.JeevanRakshaApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-03-23 06:31:33 [main] INFO  c.c.j.JeevanRakshaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-23 06:31:34 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-23 06:31:34 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 5 JPA repository interfaces.
+2026-03-23 06:31:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-23 06:31:34 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-23 06:31:34 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-03-23 06:31:34 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-23 06:31:34 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 776 ms
+2026-03-23 06:31:34 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-23 06:31:34 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-03-23 06:31:34 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-23 06:31:34 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-23 06:31:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-23 06:31:35 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39a8e2fa
+2026-03-23 06:31:35 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-23 06:31:35 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-23 06:31:35 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-23 06:31:35 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-23 06:31:36 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-23 06:31:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-23 06:31:36 [main] INFO  c.c.j.JeevanRakshaApplication - Started JeevanRakshaApplication in 3.203 seconds (process running for 3.638)
+2026-03-23 06:31:36 [main] INFO  c.c.j.JeevanRakshaApplication - =========================================================
+2026-03-23 06:31:36 [main] INFO  c.c.j.JeevanRakshaApplication -   Jeevan Raksha Pharmacy API started successfully!
+2026-03-23 06:31:36 [main] INFO  c.c.j.JeevanRakshaApplication -   Swagger UI : http://localhost:8080/swagger-ui.html
+2026-03-23 06:31:36 [main] INFO  c.c.j.JeevanRakshaApplication -   API Docs   : http://localhost:8080/v3/api-docs
+2026-03-23 06:31:36 [main] INFO  c.c.j.JeevanRakshaApplication - =========================================================
+2026-03-23 06:31:48 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-23 06:31:48 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-23 06:31:48 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-03-23 06:31:50 [http-nio-8080-exec-4] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 738 ms
+2026-03-23 06:32:28 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-23 06:32:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-23 06:32:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

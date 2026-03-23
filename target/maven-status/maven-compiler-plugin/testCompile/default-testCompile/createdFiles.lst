@@ -1,0 +1,7 @@
+com/codegnan/jeevanraksha/service/OrderServiceTest.class
+com/codegnan/jeevanraksha/service/SearchServiceTest.class
+com/codegnan/jeevanraksha/service/MedicineServiceTest.class
+com/codegnan/jeevanraksha/service/InventoryServiceTest.class
+com/codegnan/jeevanraksha/service/SupplierServiceTest.class
+com/codegnan/jeevanraksha/service/CustomerServiceTest.class
+com/codegnan/jeevanraksha/service/ReportServiceTest.class
